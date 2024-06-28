@@ -1,0 +1,157 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ddd;
+    background-color: #222;
+}
+
+/* Layout */
+ main, footer {
+    margin: 0 auto;
+    width: 80%;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffc720;
+    width: 100%;
+    border-radius: 10px;
+    gap: 17rem;
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    color: #222;
+    padding-bottom: 10px;
+}
+.spacing-top {
+    margin-top: 3rem;
+}
+.game-head {
+    font-size: 114px;
+    font-weight: 900;
+    margin: 0;
+    color: #ffc720;
+}
+.card-links {
+    display: grid;
+    grid-gap: .5rem;
+    gap: .5rem;
+}
+.intro p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+/* Navigation */
+nav {
+    top: 0;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+.contact-intro {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+/* Contact Form */
+#contact-form {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    width: 100%;
+}
+#contact-form #name, #email, #message {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#contact-form .submit-button {
+    background-color: #ffc720;
+    color: #222;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Location */
+#location {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#location:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 20px 0;
+    color: #ddd;
+}
+
+footer h2 {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+#social-media-links a {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+    font-family: 'Bootstrap-icons', serif;
+}
+
+#social-media-links a:hover {
+    transform: scale(1.2);
+    color: #ffc720;
+}
+.separator {
+    border-top: 1px solid #ddd;
+    width: 80%;
+    margin: 20px auto;
+}
